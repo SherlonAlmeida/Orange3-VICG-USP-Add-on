@@ -26,6 +26,7 @@ use
     python -m Orange.canvas
 
 The new widget appears in the toolbox bar.
+
 In the Workflows directory there are some examples.
 
 ![screenshot](https://github.com/SherlonAlmeida/Orange3-VICG-USP-Add-on/blob/master/screenshot.png)
