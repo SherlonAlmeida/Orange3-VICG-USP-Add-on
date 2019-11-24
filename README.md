@@ -1,9 +1,9 @@
-Orange3 Example Add-on
+Orange3 VICG-USP Add-on
 ======================
 
-This is an example add-on for [Orange3](http://orange.biolab.si). Add-on can extend Orange either 
-in scripting or GUI part, or in both. We here focus on the GUI part and implement a simple (empty) widget,
-register it with Orange and add a new workflow with this widget to example tutorials.
+This is an add-on for [Orange3](http://orange.biolab.si).
+In this add-on you will find a widget of [Least Square Projection (LSP)](https://dl.acm.org/citation.cfm?id=1399373).
+The code inside the widget is from the [mppy](https://pypi.org/project/mppy/) library, implemented by [Thiago Henrique](https://github.com/thiagohenriquef/mppy).
 
 Installation
 ------------
@@ -17,12 +17,6 @@ Python's site-packages directory), run
 
     pip install -e .
 
-Documentation / widget help can be built by running
-
-    make html htmlhelp
-
-from the doc directory.
-
 Usage
 -----
 
@@ -31,6 +25,6 @@ use
 
     python -m Orange.canvas
 
-The new widget appears in the toolbox bar under the section Example.
+The new widget appears in the toolbox bar.
 
-![screenshot](https://github.com/biolab/orange3-example-addon/blob/master/screenshot.png)
+![screenshot](https://github.com/SherlonAlmeida/Orange3-VICG-USP-Add-on/blob/master/screenshot.png)
